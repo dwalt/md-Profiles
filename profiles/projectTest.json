@@ -1,8 +1,8 @@
 {
-  "identifier": "project",
+  "identifier": "projectTest",
   "namespace": "org.adiwg.profile",
-  "alternateId": ["project"],
-  "title": "Project",
+  "alternateId": ["projectTest"],
+  "title": "ProjectTest",
   "description": "Document a project",
   "version": "VERSION",
   "components": {
