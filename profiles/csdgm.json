@@ -7,9 +7,6 @@
   "version": "VERSION 0.1",
   "components": {
     "record": {
-        "basicInformation": {
-          "shortAbstract": false
-        },
         "citation": {
           "basicInformation": {
             "edition": false,
