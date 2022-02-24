@@ -1,10 +1,10 @@
 {
   "identifier": "csdgm",
   "namespace": "org.adiwg.profile",
-  "alternateId": ["csdgm"],
+  "alternateId": ["csdgm 0.1"],
   "title": "Full",
   "description": "Content Standard for Digital Geospatial Metadata Basic Standard",
-  "version": "VERSION",
+  "version": "VERSION 0.1",
   "components": {
     "record": {
         "basicInformation": {
