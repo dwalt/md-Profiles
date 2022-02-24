@@ -1,17 +1,16 @@
 {
   "identifier": "csdgm",
   "namespace": "org.adiwg.profile",
-  "alternateId": ["csdgm"],
+  "alternateId": ["csdgm_0.3"],
   "title": "CSDGM",
   "description": "Content Standard for Digital Geospatial Metadata Basic Standard",
-  "version": "VERSION",
+  "version": "VERSION_0.3",
   "components": {
     "record": {
         "basicInformation": {
           "shortAbstract": false
         },
         "resourceType": {
-          "resourceType": {},
           "name": false
         },
         "citation": {
@@ -37,9 +36,8 @@
 			    "description": false
               },
               "identifier": false
-            }
+            },
           },
-          "graphic": false
         "timePeriod": {
           "identifier": false,
           "description": false,
@@ -53,11 +51,11 @@
 		  "note": false,
 		  "contact": false,
 		  "scope": false
-		}
+		},
         "graphicOverview": {
 		  "fileConstraing": false,
 		  "fileURI": false
-		}
+		},
       },
 	},
     "contact": {},
