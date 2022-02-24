@@ -6,7 +6,51 @@
   "description": "Content Standard for Digital Geospatial Metadata Basic Standard",
   "version": "VERSION",
   "components": {
-    "record": {},
+    "record": {
+        "basicInformation": {
+          "shortAbstract": false
+        },
+        "citation": {
+          "basicInformation": {
+            "edition": false,
+            "presentationForm": false
+          },
+          "onlineResource": {
+            "protocol": false,
+            "applicationProfile": false,
+            "protocolRequest": false
+          },
+          "identifier": {
+            "version": false,
+            "description": false,
+            "authority": {
+              "basicInformation": {
+                "alternateTitle": false
+              },
+              "onlineResource": {
+                "protocol": false,
+                "applicationProfile": false,
+                "protocolRequest": false
+              },
+              "identifier": false
+            }
+          },
+          "otherCitationDetails": false,
+          "graphic": false
+        },
+        "environmentDescription": false,
+        "timePeriod": {
+          "identifier": false,
+          "description": false,
+          "periodName": false,
+          "interval": false,
+          "duration": false
+        },
+        "maintenance": false,
+        "graphicOverview": false,
+        "credit": false
+      },
+	},
     "contact": {},
     "dictionary": {}
   },
