@@ -1,7 +1,7 @@
 {
 	"identifier": "csdgmlite",
 	"namespace":, "gov.usgs.profile",
-	"alternateId": ["usgsCSDGMlite],
+	"alternateId": ["usgscsdgmlite],
 	"title": "CSDGMLite",
 	"description": "Lite version of CSDGM basic",
 	"version": "VERSION",
