@@ -1,0 +1,17 @@
+{
+	"identifier": "csdgmlite",
+	"namespace":, "gov.usgs.profile",
+	"alternateId": ["usgsCSDGMlite],
+	"title": "CSDGMLite",
+	"description": "Lite version of CSDGM basic",
+	"version": "VERSION",
+	"components": {
+		"record": {
+			"main": {
+				"basicInformation": {
+					"recordId": false
+				}
+			}
+		}
+	}
+}
