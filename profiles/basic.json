@@ -1,8 +1,8 @@
 {
-  "identifier": "basic",
+  "identifier": "basicTest",
   "namespace": "org.adiwg.profile",
-  "alternateId": ["basic"],
-  "title": "Basic",
+  "alternateId": ["basicTest"],
+  "title": "Basic Test",
   "description": "A profile with the minimum recommended elements for discovery.",
   "version": "VERSION",
   "components": {
