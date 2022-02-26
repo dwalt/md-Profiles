@@ -1,2 +1,2 @@
-# md-Profiles
+# mdProfiles
 Custom profiles for mdEditor
