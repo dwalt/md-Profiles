@@ -1,12 +1,10 @@
 {
 	"identifier": "csdgm",
 	"namespace": "gov.usgs.profile",
-	"alternateId": [
-		"csdgm"
-	],
+	"alternateId": ["csdgm"],
 	"title": "CSDGM basic",
 	"description": "Content Standard for Digital Geospatial Metadata Basic Standard",
-	"version": "0.1",
+	"version": "1.0.1",
 	"components": {
 		"record": {
 			"main": {
