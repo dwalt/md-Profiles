@@ -4,42 +4,62 @@
 	"alternateId": ["csdgm"],
 	"title": "CSDGM basic",
 	"description": "Content Standard for Digital Geospatial Metadata Basic Standard",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"components": {
 		"record": {
 			"main": {
-				"basicInformation": {
-					"shortAbstract": false
-				},
+				"basicInformation": true {},
 				"resourceType": {
-					"name": false
+					"name": {} false
 				},
 				"citation": {
 					"basicInformation": {
-						"alternateTitle": false
+						"alternateTitle": false,
+						"dates": {
+							"dateItem": {
+								"description": false
+							}
+						}
+					"edition": true {},
+					"presentationForm": true {}
 					},
+					"responsibleParty": true {},
 					"onlineResource": {
+						"name": false,
+						"url": true,
 						"protocol": false,
+						"description": false,
+						"onlineFunction": false,
 						"applicationProfile": false,
-						"protocolRequest": false,
-						"description": false
+						"protocolRequest": false
 					},
 					"identifier": {
 						"description": false,
 						"authority": {
 							"basicInformation": {
 								"alternateTitle": false
+								"dateArray": {
+									"description": false
+								}
 							},
-							"onlineResource": {
-								"protocol": false,
-								"applicationProfile": false,
-								"protocolRequest": false,
-								"description": false
-							},
-							"identifier": false
+							"responsibleParty": true {},
+							"onlineResource": true {}
 						}
 					}
+					"series": {
+						"name": true,
+						"issue": true,
+						"page": false
+					},
+					"otherCitationDetails": true
 				},
+				"description": {
+					"abstract": true,
+					"shortAbstract": false
+				},
+				"purpose": true,
+				"supplementalInfo": true,
+				"environmentDescription": true,
 				"timePeriod": {
 					"identifier": false,
 					"description": false,
@@ -49,15 +69,14 @@
 					"geologicAge": false
 				},
 				"maintenance": {
-					"date": false,
+					"frequency": true,
+					"dates": false {},
 					"note": false,
-					"contact": false,
+					"contact": false {},
 					"scope": false
 				},
-				"graphicOverview": {
-					"fileConstraing": false,
-					"fileURI": false
-				}
+				"graphicOverview": false {},
+				"credit": true
 			}
 		}
 	},
