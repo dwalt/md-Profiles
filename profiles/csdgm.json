@@ -8,9 +8,9 @@
 	"components": {
 		"record": {
 			"main": {
-				"basicInformation": true {},
+				"basicInformation": true,
 				"resourceType": {
-					"name": {} false
+					"name": false
 				},
 				"citation": {
 					"basicInformation": {
@@ -20,39 +20,39 @@
 								"description": false
 							}
 						}
-					"edition": true {},
-					"presentationForm": true {}
 					},
-					"responsibleParty": true {},
-					"onlineResource": {
-						"name": false,
-						"url": true,
-						"protocol": false,
-						"description": false,
-						"onlineFunction": false,
-						"applicationProfile": false,
-						"protocolRequest": false
-					},
-					"identifier": {
-						"description": false,
-						"authority": {
-							"basicInformation": {
-								"alternateTitle": false
-								"dateArray": {
-									"description": false
-								}
-							},
-							"responsibleParty": true {},
-							"onlineResource": true {}
-						}
-					}
-					"series": {
-						"name": true,
-						"issue": true,
-						"page": false
-					},
-					"otherCitationDetails": true
+					"edition": true,
+					"presentationForm": true
 				},
+				"responsibleParty": true,
+				"onlineResource": {
+					"name": false,
+					"url": true,
+					"protocol": false,
+					"description": false,
+					"onlineFunction": false,
+					"applicationProfile": false,
+					"protocolRequest": false
+				},
+				"identifier": {
+					"description": false,
+					"authority": {
+						"basicInformation": {
+							"alternateTitle": false,
+							"dateArray": {
+								"description": false
+							}
+						},
+						"responsibleParty": true,
+						"onlineResource": true
+					}
+				},
+				"series": {
+					"name": true,
+					"issue": true,
+					"page": false
+				},
+				"otherCitationDetails": true,
 				"description": {
 					"abstract": true,
 					"shortAbstract": false
@@ -70,12 +70,12 @@
 				},
 				"maintenance": {
 					"frequency": true,
-					"dates": false {},
+					"dates": false,
 					"note": false,
-					"contact": false {},
+					"contact": false,
 					"scope": false
 				},
-				"graphicOverview": false {},
+				"graphicOverview": false,
 				"credit": true
 			}
 		}
