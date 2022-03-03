@@ -4,80 +4,14 @@
 	"alternateId": ["csdgm"],
 	"title": "CSDGM basic",
 	"description": "Content Standard for Digital Geospatial Metadata Basic Standard",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"components": {
 		"record": {
 			"main": {
 				"basicInformation": true,
 				"resourceType": {
 					"name": false
-				},
-				"citation": {
-					"basicInformation": {
-						"alternateTitle": false,
-						"date": {
-							"items": {
-								"description": false
-							}
-						}
-					},
-					"edition": true,
-					"presentationForm": true
-				},
-				"responsibleParty": true,
-				"onlineResource": {
-					"name": false,
-					"url": true,
-					"protocol": false,
-					"description": false,
-					"function": false,
-					"applicationProfile": false,
-					"protocolRequest": false
-				},
-				"identifier": {
-					"description": false,
-					"authority": {
-						"basicInformation": {
-							"alternateTitle": false,
-							"dateArray": {
-								"description": false
-							}
-						},
-						"responsibleParty": true,
-						"onlineResource": true
-					}
-				},
-				"series": {
-					"name": true,
-					"issue": true,
-					"issuePage": false
-				},
-				"otherCitationDetails": true,
-				"description": {
-					"abstract": true,
-					"shortAbstract": false
-				},
-				"purpose": true,
-				"supplementalInfo": true,
-				"graphic": false,
-				"environmentDescription": true,
-				"timePeriod": {
-					"identifier": false,
-					"description": false,
-					"periodName": false,
-					"interval": false,
-					"duration": false,
-					"geologicAge": false
-				},
-				"maintenance": {
-					"frequency": true,
-					"dates": false,
-					"note": false,
-					"contact": false,
-					"scope": false
-				},
-				"graphicOverview": false,
-				"credit": true
+				}			
 			}
 		}
 	},
