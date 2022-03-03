@@ -59,7 +59,7 @@
 						"date": true,
 						"edition": true,
 						"presentationForm": true
-					}
+					},
 					"responsibleParty": true,
 					"onlineResource": {
 						"name": false,
