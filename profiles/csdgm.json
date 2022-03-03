@@ -60,27 +60,27 @@
 						"edition": true,
 						"presentationForm": true
 					}
+					"responsibleParty": true,
+					"onlineResource": {
+						"name": false,
+						"uri": true,
+						"protocol": false,
+						"description": false,
+						"onlineFunction": false,
+						"applicationProfile": false,
+						"protocolRequest": false
+					},
+					"identifier": {
+						"identifer": true,
+						"namespace": true,
+						"version": false,
+						"description": false,
+						"authority": false
+					},
+					"series": true,
+					"otherCitationDetails": true,
+					"graphic": false
 				},
-				"responsibleParty": true,
-				"onlineResource": {
-					"name": false,
-					"uri": true,
-					"protocol": false,
-					"description": false,
-					"onlineFunction": false,
-					"applicationProfile": false,
-					"protocolRequest": false
-				},
-				"identifier": {
-					"identifer": true,
-					"namespace": true,
-					"version": false,
-					"description": false,
-					"authority": false
-				},
-				"series": true,
-				"otherCitationDetails": true,
-				"graphic": false,
 				"metadataCitation": false
 			}
 		}
