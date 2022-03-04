@@ -4,7 +4,7 @@
 	"alternateId": ["usgsCSDGMlite"],
 	"title": "CSDGMLite",
 	"description": "Lite version of CSDGM basic",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"components": {
 		"record": {
 			"main": {
