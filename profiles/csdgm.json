@@ -71,8 +71,8 @@
 						"protocolRequest": false
 					},
 					"identifierShort": true,
-					"identiferSimple": false
-					"identifier": false
+					"identiferSimple": false,
+					"identifier": false,
 					"series": true,
 					"otherCitationDetails": true,
 					"graphic": false
