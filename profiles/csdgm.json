@@ -12,40 +12,6 @@
 				"resourceType": {
 					"type": true,
 					"name": false
-				},
-				"citation": {
-					"basicInformation": {
-						"title": true,
-						"alternateTitle": false,
-						"date": true,
-						"edition": true,
-						"presentationForm": true
-					},
-					"responsibleParty": true,
-					"onlineResource": {
-						"name": false,
-						"uri": true,
-						"protocol": false,
-						"description": false,
-						"onlineFunction": false,
-						"applicationProfile": false,
-						"protocolRequest": false
-					},
-					"identifier": {
-						"identifer": true,
-						"namespace": true,
-						"version": true,
-						"description": true,
-						"authority": {
-							"basicInformation":{
-								"alternateTitle": false
-							},
-							"identifier": false
-						}
-					},
-					"series": true,
-					"otherCitationDetails": true,
-					"graphic": false
 				}
 			}
 		}
