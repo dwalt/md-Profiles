@@ -47,11 +47,6 @@
 					"otherCitationDetails": true,
 					"graphic": false
 				}
-			},
-			"associated": {
-				"associationType": true,
-				"initiativeType": false,
-				"resourceType": true,
 			}
 		}
 	},
