@@ -4,7 +4,7 @@
 	"alternateId": ["csdgm"],
 	"title": "CSDGM basic",
 	"description": "Content Standard for Digital Geospatial Metadata Basic Standard",
-	"version": "1.1.16",
+	"version": "1.1.17",
 	"components": {
 		"record":{
 			"main": {
@@ -13,7 +13,14 @@
 					"type": true,
 					"name": false
 				},
-				"pointOfContact": true,
+				"pointOfContact": {
+					"role": true,
+					"roleExtent": false,
+					"party": {
+						"contactId": true,
+						"organizationMembers": false
+					}
+				},
 				"citation": {
 					"basicInformation": {
 						"title": true,
@@ -58,7 +65,7 @@
 				"graphic": false,
 				"reference": false,
 				"releaseability": false,
-				"responsibility": false,
+				"responsibeParty": false,
 				"legal": {
 					"accessConstraint": true,
 					"useConstraint": true,
