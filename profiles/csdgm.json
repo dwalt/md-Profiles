@@ -4,7 +4,7 @@
 	"alternateId": ["csdgm"],
 	"title": "CSDGM basic",
 	"description": "Content Standard for Digital Geospatial Metadata Basic Standard",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"components": {
 		"record":{
 			"main": {
@@ -70,16 +70,51 @@
 			"lineage":{
 				"statement": false,
 				"scope": true,
-				"citation": true,
+				"citation": false,
 				"processStep": true,
 				"source": {
 					"sourceId": true,
-					"description": true,
-					"sourceCitation": true,
+					"description": false,
+					"sourceCitation": {
+						"basicInformation": {
+							"title": true,
+							"alternateTitle": false,
+							"date": true,
+							"edition": true,
+							"presentationForm": true
+						},
+						"responsibleParty": true,
+						"onlineResource": {
+							"name": false,
+							"uri": true,
+							"protocol": false,
+							"description": false,
+							"onlineFunction": false,
+							"applicationProfile": false,
+							"protocolRequest": false
+						},
+						"identifier": {
+							"identifer": true,
+							"namespace": true,
+							"version": false,
+							"description": false,
+							"authority": false
+						},
+						"series": true,
+						"otherCitationDetails": true,
+						"graphic": false
+					},
 					"metadataCitation": false,
-					"spatialResolution": true,
+					"spatialResolution": {
+						"scaleFactor": true,
+						"measure": false,
+						"levelOfDetail": false,
+						"geographicResolution": false,
+						"bearingDistanceResolution": false,
+						"coordinateResolution": false
+					},
 					"referenceSystem": false,
-					"sourceProcessStep": true,
+					"sourceProcessStep": false,
 					"scope": true
 					
 				}
