@@ -4,7 +4,7 @@
 	"alternateId": ["csdgm"],
 	"title": "CSDGM basic",
 	"description": "Content Standard for Digital Geospatial Metadata Basic Standard",
-	"version": "1.3.4",
+	"version": "1.3.5",
 	"components": {
 		"record":{
 			"main": {
@@ -245,6 +245,11 @@
 			"title": "Documents",
 			"target": "record.show.edit.documents",
 			"tip": "Other documents related to, but not defining, the resource."
+		},
+		{
+			"title": "Funding",
+			"target": "record.show.edit.funding",
+			"tip": "Information about funding allocated to development of the resource."
 		},
 		{
 			"title": "Dictionaries",
