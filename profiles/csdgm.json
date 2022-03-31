@@ -216,7 +216,6 @@
 			  "keys": false,
 			  "index": false,
 			  "entityReference": {
-				"basicInformation": false
 				  "title": true,
 				  "alternateTitle": false,
 				  "date": false,
