@@ -245,7 +245,7 @@
 					"series": false,
 					"otherCitationDetails": false,
 					"graphic": false
-				}
+				},
 			    "attribute": {
 					"information": {
 						"allowNull": false,
