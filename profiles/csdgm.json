@@ -4,7 +4,7 @@
 	"alternateId": ["csdgm"],
 	"title": "CSDGM basic",
 	"description": "Content Standard for Digital Geospatial Metadata Basic Standard",
-	"version": "1.6.4",
+	"version": "1.6.5",
 	"components": {
 		"record":{
 			"main": {
@@ -26,7 +26,19 @@
 				"purpose": true,
 				"supplementalInfo": true,
 				"environmentDescription": true,
-				"timePeriod": true,
+"**left off with working on timePeriod as next, working upward from bottom**"
+				"timePeriod": {
+					"dateRange": {
+						"start": true,
+						"end": true,
+						"fiscalyear": false
+					},
+					"identifier": false,
+					"description": true,
+					"periodName": false,
+					"interval": false,
+					"duration": false
+				},
 				"maintenance": {
 					"frequency": true,
 					"dates": false,
