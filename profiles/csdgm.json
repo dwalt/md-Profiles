@@ -4,7 +4,7 @@
 	"alternateId": ["csdgm"],
 	"title": "CSDGM basic",
 	"description": "Content Standard for Digital Geospatial Metadata Basic Standard",
-	"version": "1.9.1",
+	"version": "1.9.2",
 	"components": {
 		"record":{
 			"main": {
@@ -369,7 +369,7 @@
 			    "information": true,
 			    "identifier": true,
 				"identifierSimple": false,
-				"identifierBasic": false,				
+				"identifierBasic": false,
 			    "codeName": true,
 			    "definition": true,
 			    "commonName": false,
@@ -398,46 +398,47 @@
 					"dataType": true,
 					"definition": true,
 					"allowNull": false,
-				"information": {
-					"codeName": true,
-					"definition": true,
-					"dataType": true,
-					"allowNull": false,
-					"commonName": false,
-					"domain": true,
-					"alias": false,
-					"units": true,
-					"unitsResolution": true,
-					"caseSensitive": false,
-					"fieldWidth": true,
-					"missingValue": false,
-					"minValue": true,
-					"maxValue": true
-				},
-				"valueRange": false,
-				"timePeriod": {
-					"date": true,
-					"description": false,
-					"periodName": false,
-					"interval": false,
-					"duration": false,
-					"identifier": false
-				},
-				"attributeReference": {
-					"basicInformation": true,
-					"title": true,
-					"alternateTitle": false,
-					"date": false,
-					"edition": false,
-					"presentationForm": false
-					"responsibleParty": false,
-					"onlineResource": false,
-					"identifier": false,
-					"identifierSimple": false,
-					"identifierShort": false,
-					"series": false,
-					"otherCitationDetails": false,
-					"graphicOverview": false
+					"information": {
+						"codeName": true,
+						"definition": true,
+						"dataType": true,
+						"allowNull": false,
+						"commonName": false,
+						"domain": true,
+						"alias": false,
+						"units": true,
+						"unitsResolution": true,
+						"caseSensitive": false,
+						"fieldWidth": true,
+						"missingValue": false,
+						"minValue": true,
+						"maxValue": true
+					},
+					"valueRange": false,
+					"timePeriod": {
+						"date": true,
+						"description": false,
+						"periodName": false,
+						"interval": false,
+						"duration": false,
+						"identifier": false
+					},
+					"attributeReference": {
+						"basicInformation": true,
+						"title": true,
+						"alternateTitle": false,
+						"date": false,
+						"edition": false,
+						"presentationForm": false,
+						"responsibleParty": false,
+						"onlineResource": false,
+						"identifier": false,
+						"identifierSimple": false,
+						"identifierShort": false,
+						"series": false,
+						"otherCitationDetails": false,
+						"graphicOverview": false
+					}
 				},
 				"citation": false
 			},
