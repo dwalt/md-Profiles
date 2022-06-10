@@ -4,7 +4,7 @@
 	"alternateId": ["csdgm"],
 	"title": "CSDGM basic",
 	"description": "Content Standard for Digital Geospatial Metadata Basic Standard",
-	"version": "1.8.1",
+	"version": "1.8.2",
 	"components": {
 		"record":{
 			"main": {
@@ -496,11 +496,6 @@
 			"tip": "Information on the history of the resource."
 		},
 		{
-			"title": "Taxonomy",
-			"target": "record.show.edit.taxonomy",
-			"tip": "Information on the taxa associated with the resource."
-		},
-		{
 			"title": "Distribution",
 			"target": "record.show.edit.distribution",
 			"tip": "Information about obtaining the resource."
@@ -514,11 +509,6 @@
 			"title": "Associated",
 			"target": "record.show.edit.associated",
 			"tip": "Other resources with a defined relationship to the resource."
-		},
-		{
-			"title": "Documents",
-			"target": "record.show.edit.documents",
-			"tip": "Other documents related to, but not defining, the resource."
 		},
 		{
 			"title": "Dictionaries",
