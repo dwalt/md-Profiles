@@ -4,7 +4,7 @@
 	"alternateId": ["csdgm"],
 	"title": "CSDGM basic",
 	"description": "Content Standard for Digital Geospatial Metadata Basic Standard",
-	"version": "1.9.9",
+	"version": "1.9.10",
 	"components": {
 		"record":{
 			"main": {
@@ -239,7 +239,6 @@
 					"referenceSystem": false,
 					"sourceProcessStep": false,
 					"scope": true
-					
 				}
 			},
 			"distribution": {
@@ -254,7 +253,7 @@
 						"onlineOption": {
 							"name": false,
 							"url": true,
-							"protocol": false,
+							"protocol": true,
 							"description": true,
 							"onlineFunction": false,
 							"applicationProfile": false,
