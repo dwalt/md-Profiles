@@ -4,7 +4,7 @@
 	"alternateId": ["csdgmBioPro"],
 	"title": "CSDGM biological",
 	"description": "NBII Biological Profile 1999",
-	"version": "1.2.3",
+	"version": "1.2.4",
 	"components": {
 		"record":{
 			"main": {
@@ -264,7 +264,8 @@
 							"applicationProfile": false,
 							"protocolRequest": false
 						},
-						"identifier": {
+						"identifier": false,
+						"identifierSimple": {
 							"identifer": true,
 							"namespace": true,
 							"version": false,
