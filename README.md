@@ -6,7 +6,7 @@ Custom profiles for mdEditor
 To add a Profile, first add the definition file (must be publicly hosted)
 
 **Add a Definition File**
-1. Open mdEditor and navigate to “settings” (far right end of task bar)
+1. Open mdEditor and navigate to “Settings” (far right end of task bar)
 2. Select “Profiles” at the top of the settings page 
 3. Select “Manage Definitions” 
 4. From the Manage Definitions screen, select “Add Definition”
@@ -53,4 +53,5 @@ Definition file updates can be obtained through a "pull" from the hosted site
 3. Select “Update Definition” to accept the new version
 4. The new version number will appear once the file has loaded
 5. Select “Back” to return to the Manage Definitions screen
-6. The Profile does not require editing
+6. The Profile does not require editing to enable the definition file updates
+7. Select a record to edit, the definition file updates will be reflected in the mdEditor user interface 
