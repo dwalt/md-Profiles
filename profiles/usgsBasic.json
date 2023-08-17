@@ -4,7 +4,7 @@
 	"alternateId": ["csdgm"],
 	"title": "USGS Basic",
 	"description": "Basic USGS ISO content standard",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"components": {
 		"record":{
 			"main": {
@@ -138,7 +138,7 @@
 					"onlineFunction": false,
 					"applicationProfile": false,
 					"protocolRequest": false
-				}
+				},
 				"repositories": true,
 				"maintenance": {
 					"frequency": true,
