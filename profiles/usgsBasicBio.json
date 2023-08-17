@@ -1,10 +1,10 @@
 {
-	"identifier": "usgs.basic",
+	"identifier": "usgs.basic.bio",
 	"namespace": "gov.usgs.profile",
-	"alternateId": ["csdgm"],
+	"alternateId": ["basic"],
 	"title": "USGS Basic Bio",
 	"description": "Basic USGS ISO content standard with biological",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"components": {
 		"record":{
 			"main": {
