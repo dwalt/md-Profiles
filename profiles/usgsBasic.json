@@ -1,0 +1,622 @@
+{
+	"identifier": "usgs.basic",
+	"namespace": "gov.usgs.profile",
+	"alternateId": ["csdgm"],
+	"title": "USGS Basic",
+	"description": "Basic USGS ISO content standard",
+	"version": "1.0.1",
+	"components": {
+		"record":{
+			"main": {
+				"basicInformation": true,
+				"resourceType": {
+					"type": true,
+					"name": false
+				},
+				"pointOfContact": {
+					"role": true,
+					"roleExtent": false,
+					"party": {
+						"contactId": true,
+						"organizationMembers": false
+					}
+				},
+				"citation": {
+					"basicInformation": {
+						"title": true,
+						"alternateTitle": false,
+						"dates": {
+							"dateItem": {
+								"date": true,
+								"dateType": true,
+								"description": false
+							}
+						},
+						"edition": true,
+						"presentationForm": true
+					},
+					"responsibleParty": true,
+					"onlineResource": {
+						"name": false,
+						"url": true,
+						"protocol": false,
+						"description": false,
+						"onlineFunction": false,
+						"applicationProfile": false,
+						"protocolRequest": false
+					},
+					"identifier": {
+						"identifer": true,
+						"namespace": true,
+						"version": true,
+						"description": true,
+						"authority": {
+							"basicInformation": {
+								"title": true,
+								"alternateTitle": false,
+								"date": true,
+									"dateArray": {
+										"date": true,
+										"dateType": true,
+										"description": false
+									}
+							},
+							"responsibleParty": {
+								"role": true,
+								"contacts": true
+							},
+							"onlineResource": false,
+							"identifier": false,
+							"identifierSimple": false,
+							"identifierShort": false
+						}
+					},
+					"identifierSimple": false,
+					"identifierShort": false,
+					"series": false,
+				    "otherCitationDetails": false,
+					"graphic": false
+				},
+				"description": true,
+				"purpose": true,
+				"supplementalInfo": true,
+				"environmentDescription": true,
+				"timePeriod": {
+					"dateRange": {
+						"start": true,
+						"end": true,
+						"fiscalyear": false
+					},
+					"identifier": false,
+					"description": true,
+					"periodName": false,
+					"interval": false,
+					"duration": false
+				},
+				"maintenance": {
+					"frequency": true,
+					"dates": false,
+					"contact": false,
+					"note": false,
+					"scope": false
+				},
+				"graphicOverview": {
+					"fileName": true,
+					"fileType": true,
+					"fileDescription": true,
+					"onlineResource": {
+						"name": false,
+						"url": true,
+						"protocol": false,
+						"description": false,
+						"onlineFunction": false,
+						"applicationProfile": false,
+						"protocolRequest": false
+					}
+				},
+				"credit": true
+			},
+			"metadata": {
+				"basicInformation": {
+					"metadataStatus": false,
+					"metadataDates": true
+				},
+				"metadataContacts": true,
+				"metadataIdentifier": {
+					"identifier": true,
+					"namespace": true,
+					"version": false,
+					"description": false,
+					"authority": false
+				},
+				"parentMetadata": false,
+				"onlineResource": {
+					"name": true,
+					"url": true,
+					"protocol": false,
+					"description": false,
+					"onlineFunction": false,
+					"applicationProfile": false,
+					"protocolRequest": false
+				}
+				"repositories": true,
+				"maintenance": {
+					"frequency": true,
+					"dates": {
+						"dateItem": {
+							"date": true,
+							"dateType": true,
+							"description": true
+						}
+					},
+				"contact": true,
+				"note": true,
+				"scope": false
+				},
+				"defaultLocale": true,
+				"alternateMetadataReference": false
+			},
+			"keywords": true,
+			"extent": {
+				"description": false,
+				"geographic": {
+					"bbox": {
+						"north": true,
+						"east": true,
+						"south": true,
+						"west": true
+					},
+					"description": true,
+					"containsData": true
+				}
+			},
+			"spatial": {
+				"spatialRepresentationType": true,
+				"spatialReferenceSystem": true
+			},
+			"lineage":{
+				"statement": true,
+				"scope": true,
+				"citation": {
+					"basicInformation": {
+						"title": true,
+						"alternateTitle": false,
+						"dates": {
+							"dateItem": {
+								"date": true,
+								"dateType": true,
+								"description": false
+							}
+						},
+						"edition": true,
+						"presentationForm": true
+					},
+					"responsibleParty": true,
+					"onlineResource": {
+						"name": false,
+						"url": true,
+						"protocol": true,
+						"description": false,
+						"onlineFunction": false,
+						"applicationProfile": false,
+						"protocolRequest": false
+					},
+					"identifier": false,
+					"identifierSimple": false,
+					"identifierShort": true,
+					"series": true,
+					"otherCitationDetails": true,
+					"graphic": false
+				},
+				"processStep": {
+					"stepId": true,
+					"description": true,
+					"rationale": false,
+					"timePeriod": {
+						"dateTime": {
+							"timeInterval": true,
+							"duration": true
+						},
+						"identifier": false,
+						"description": false,
+						"periodName": false,
+						"interval": false,
+						"duration": false
+					},
+					"processor": true,
+					"stepSource": true,
+					"stepProduct": true,
+					"stepReference": true,
+					"scope": true
+				},
+				"source": {
+					"sourceId": true,
+					"description": true,
+					"sourceCitation": {
+						"basicInformation": {
+							"title": true,
+							"alternateTitle": false,
+							"date": true,
+							"edition": true,
+							"presentationForm": true
+						},
+						"responsibleParty": true,
+						"onlineResource": {
+							"name": false,
+							"uri": true,
+							"protocol": false,
+							"description": false,
+							"onlineFunction": false,
+							"applicationProfile": false,
+							"protocolRequest": false
+						},
+						"identifier": false,
+						"identifierSimple": {
+							"identifier": true,
+							"namespace": true,
+							"version": false,
+							"description": false,
+							"authority": false
+						},
+						"series": true,
+						"otherCitationDetails": true,
+						"graphic": false
+					},
+					"metadataCitation": false,
+					"spatialResolution": false,
+					"referenceSystem": false,
+					"sourceProcessStep": false,
+					"scope": true
+				}
+			},
+			"distribution": {
+				"description": true,
+				"liablityStatement": true,
+				"distributor": {
+					"contacts": true,
+					"role": true,
+					"transferOption": {
+						"transferSize": true,
+						"distributionUnit": true,
+						"onlineOption": {
+							"name": true,
+							"url": true,
+							"protocol": true,
+							"description": true,
+							"onlineFunction": true,
+							"applicationProfile": true,
+							"protocolRequest": true
+						},
+						"offlineOption": {
+							"mediumTitle": true,
+							"storage": {
+								"density": true,
+								"units": true,
+								"numberOfVolumes": true,
+								"format": true
+							},
+							"identifier": true,
+							"note": true
+						},
+						"distributionFormat": {
+							"name": true,
+							"version": true,
+							"compressionMethod": true,
+							"url": false
+						},
+						"transferFrequency": false
+					},
+					"orderProcess": true
+				}
+			},
+			"constraints": {
+				"type": true,
+				"useLimitation": true,
+				"scope": false,
+				"graphic": false,
+				"reference": true,
+				"releaseability": false,
+				"responsibleParty": false,
+				"legal": {
+					"accessConstraint": true,
+					"useConstraint": true,
+					"otherConstraint": true
+				},
+				"security": false
+			},
+			"associated": {
+				"associationType": true,
+				"initiativeType": true,
+				"resourceType": true,
+				"resourceCitation": {
+					"basicInformation": {
+						"title": true,
+						"alternateTitle": false,
+						"date": true,
+						"edition": true,
+						"presentationForm": true
+					},
+					"responsibleParty": true,
+					"onlineResource": {
+						"name": false,
+						"uri": true,
+						"protocol": false,
+						"description": false,
+						"onlineFunction": false,
+						"applicationProfile": false,
+						"protocolRequest": false
+					},
+					"identifier": false,
+					"identifierSimple": {
+						"identifier": false,
+						"namespace": false,
+						"version": false,
+						"description": false,
+						"authority": false
+					},
+					"identifierShort": false,
+					"series": true,
+					"otherCitationDetails": true,
+					"graphic": false
+				},
+				"metadataCitation": false
+			},
+			"documents": true,
+			"funding": false
+		},
+		"contact": true,
+		"dictionary": {
+			"main": {
+			    "basicInformation": {
+				    "title": true,
+				    "subject": true,
+				    "responsibleParty": true,
+				    "description": true,
+				    "included": true,
+				    "functionalLanguage": false
+			    },
+			    "recommendedUse": false,
+			    "locale": false
+			},
+			"citation": {
+				"basicInformation": {
+					"title": true,
+					"alternateTitle": false,
+					"dates": true,
+					"edition": false,
+					"presentationForm": false
+				},
+				"responsibleParty": true,
+				"onlineResource": true,
+				"identifier": false,
+				"series": true,
+				"otherCitationDetails": true,
+				"graphic": false
+			},
+			"entity": {
+			    "information": true,
+			    "identifier": true,
+				"identifierSimple": false,
+				"identifierBasic": false,
+			    "codeName": true,
+			    "definition": true,
+			    "commonName": true,
+			    "alias": false,
+			    "structure": false,
+			    "keys": false,
+			    "index": false,
+				"entityReference": {
+					"basicInformation": {
+						"title": false,
+						"alternateTitle": false,
+						"dates": false,
+						"edition": false,
+						"presentationForm": false
+					},
+					"responsibleParty": false,
+					"onlineResource": false,
+					"identifier": false,
+					"identifierSimple": false,
+					"identifierShort": false,
+					"series": false,
+					"otherCitationDetails": false,
+					"graphic": false
+				},
+			    "attribute": {
+					"name": true,
+					"dataType": true,
+					"definition": true,
+					"allowNull": false,
+					"information": {
+						"codeName": true,
+						"definition": true,
+						"dataType": true,
+						"allowNull": false,
+						"commonName": false,
+						"domain": true,
+						"alias": false,
+						"units": true,
+						"unitsResolution": true,
+						"caseSensitive": false,
+						"fieldWidth": false,
+						"missingValue": false,
+						"minValue": true,
+						"maxValue": true
+					},
+					"valueRange": false,
+					"timePeriod": {
+						"dateRange": {
+							"start": true,
+							"end": true,
+							"fiscalyear": false
+						},
+						"description": false,
+						"periodName": false,
+						"interval": false,
+						"duration": false,
+						"identifier": false
+					},
+					"attributeReference": {
+						"basicInformation": {
+							"title": true,
+							"alternateTitle": false,
+							"dates": true,
+							"edition": true,
+							"presentationForm": true
+						},
+						"responsibleParty": true,
+						"onlineResource": true,
+						"identifier": false,
+						"identifierSimple": false,
+						"identifierShort": false,
+						"series": false,
+						"otherCitationDetails": false,
+						"graphic": false
+					}
+				},
+				"citation": {
+					"basicInformation": {
+						"title": true,
+						"alternateTitle": false,
+						"date": false,
+						"edition": false,
+						"presentationForm": false
+					},
+					"responsibleParty": false,
+					"onlineResource": false,
+					"identifier": false,
+					"identifierSimple": false,
+					"identifierBasic": false,
+					"series": false,
+					"otherCitationDetails": true,
+					"graphic": false
+				}
+			},
+			"domain": {
+				"information": {
+				  "identifier": true,
+			      "commonName": false,
+				  "codeName": true,
+				  "description": true
+				},
+				"domainReference": {
+				   "basicInformation": {
+					  "title": true,
+				      "alternateTitle": false,
+					  "dates": true,
+					  "edition": true,
+					  "presentationForm": true,
+					  "otherCitationDetails": true
+				   },
+				   "responsibleParty": true,
+				   "onlineResource": true,
+				   "identifier": false,
+				   "series": false,
+				   "otherCitationDetails": true,
+				   "graphic": false
+				},
+			    "domainItem": {
+			       "name": true,
+				   "value": true,
+				   "description": true,
+				   "reference": {
+					  "basicInformation": {
+						"title": true,
+						"alternateTitle": false,
+						"dates": false,
+						"edition": false,
+						"presentationForm": false,
+						"otherCitationDetails": true
+					  },
+					  "responsibleParty": false,
+				      "onlineResource": false,
+				      "identifier": false,
+					  "identifierSimple": false,
+					  "identifierShort": false,
+				      "series": false,
+				      "otherCitationDetails": false,
+				      "graphic": false
+				   },
+				   "responsibleParty": false,
+				   "onlineResource": false,
+				   "identifier": false,
+				   "series": false,
+				   "otherCitationDetails": false,
+				   "graphic": false
+			    },
+				"entityKeys": false
+		    }
+		}
+	},
+	"nav": {
+		"record": [
+		{
+			"title": "Main",
+			"target": "record.show.edit.main",
+			"tip": "Basic information about the resource."
+		},
+		{
+			"title": "Metadata",
+			"target": "record.show.edit.metadata",
+			"tip": "Information about the metadata for the resource."
+		},
+		{
+			"title": "Keywords",
+			"target": "record.show.edit.keywords",
+			"tip": "Terms used to describe the resource."
+		},
+		{
+			"title": "Extent",
+			"target": "record.show.edit.extent",
+			"tip": "Information describing the bounds of the resource."
+		},
+		{
+			"title": "Lineage",
+			"target": "record.show.edit.lineage",
+			"tip": "Information on the history of the resource."
+		},
+		{
+			"title": "Distribution",
+			"target": "record.show.edit.distribution",
+			"tip": "Information about obtaining the resource."
+		},
+		{
+			"title": "Constraints",
+			"target": "record.show.edit.constraint",
+			"tip": "Information about constraints applied to the resource."
+		},
+		{
+			"title": "Associated",
+			"target": "record.show.edit.associated",
+			"tip": "Other resources with a defined relationship to the resource."
+		},
+		{
+			"title": "Dictionaries",
+			"target": "record.show.edit.dictionary",
+			"tip": "Data dictionaries associated with the resource."
+		}
+		],
+		"dictionary": [
+		{
+			"title": "Main",
+			"target": "dictionary.show.edit.index",
+			"tip": "Basic information about the dictionary."
+		},
+		{
+			"title": "Citation",
+			"target": "dictionary.show.edit.citation",
+			"tip": "The citation for the dictionary."
+		},
+		{
+			"title": "Domains",
+			"target": "dictionary.show.edit.domain",
+			"tip": "Information about defined value lists."
+		},
+		{
+			"title": "Entities",
+			"target": "dictionary.show.edit.entity",
+			"tip": "Information about entities(tables) and attributes(columns or fields)."
+		}
+	]
+  }
+}
